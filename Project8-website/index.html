@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nalla Neram</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Cinzel:wght@500;700&display=swap');
+
+body {
+    margin:0;
+    font-family:Poppins, sans-serif;
+    color:white;
+    background: linear-gradient(135deg,#0b1a3a,#1b2c6b,#3b1f5c);
+    background-size: 400% 400%;
+    animation: bgmove 12s ease infinite;
+}
+
+@keyframes bgmove {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+header{
+    text-align:center;
+    padding:40px 20px 10px;
+}
+
+.tagline{
+    font-family:Cinzel, serif;
+    font-size:34px;
+    letter-spacing:2px;
+    background:linear-gradient(to right,#ffd89b,#ffffff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.subtag{
+    margin-top:8px;
+    color:#d1d5db;
+    font-size:18px;
+    font-style:italic;
+}
+
+.container{
+    text-align:center;
+    padding:20px;
+}
+
+.poster{
+    width:360px;
+    max-width:90%;
+    border-radius:18px;
+    box-shadow:0 20px 50px rgba(0,0,0,0.6);
+    transition:0.4s;
+}
+
+.poster:hover{
+    transform:scale(1.05);
+}
+
+.movietitle{
+    font-family:Cinzel, serif;
+    font-size:52px;
+    margin-top:25px;
+}
+
+.description{
+    max-width:720px;
+    margin:20px auto;
+    line-height:1.8;
+    font-size:18px;
+    color:#e5e7eb;
+}
+
+.watch-btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 32px;
+    background:linear-gradient(45deg,#ff2e63,#ff0000);
+    border-radius:12px;
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    transition:0.3s;
+}
+
+.watch-btn:hover{
+    transform:scale(1.08);
+    box-shadow:0 10px 30px rgba(255,0,0,0.6);
+}
+
+footer{
+    margin-top:60px;
+    padding:20px;
+    text-align:center;
+    color:#cbd5e1;
+    font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="tagline">
+        SHORT FILM
+    </div>
+    <div class="subtag">
+        A story that makes you believe in love ❤️… more than astrology
+    </div>
+</header>
+
+<div class="container">
+
+    <a href="https://www.youtube.com/watch?v=DoJv1LS7MsA&t=11s" target="_blank">
+        <img class="poster" src="image/poster.png">
+    </a>
+
+    <div class="movietitle">Nalla Neram</div>
+
+    <div class="description">
+        Two strangers meet in an arranged marriage setting —  
+        he trusts feelings, she trusts fate written in the stars.  
+
+        Conversations become comfort, and comfort slowly becomes love.  
+        But the horoscope says they are not meant for each other.  
+
+        When the heart finds its person, should destiny be decided by planets…  
+        or by love?
+
+        <br><br>
+        <i>Directed by Selvaraj Ganesan</i>
+    </div>
+
+    <a class="watch-btn" href="https://www.youtube.com/watch?v=DoJv1LS7MsA&t=11s" target="_blank">
+        ▶ Watch on YouTube
+    </a>
+
+</div>
+
+<footer>
+    © 2026 Nalla Neram | Made with ❤️
+</footer>
+
+</body>
+</html>
