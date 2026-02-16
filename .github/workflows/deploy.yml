@@ -33,7 +33,7 @@ jobs:
        # 4 Build Docker Image
       - name: Build Docker Image
         run: |
-          docker build -t app project8-website
+          docker build -t app Project8-website
           docker tag app:latest ${{ secrets.ECR_REPOSITORY }}:latest
 
       # 5 Push Image
